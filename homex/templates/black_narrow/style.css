@@ -1,0 +1,1070 @@
+/* General CSS */
+
+body {
+
+    padding: 0px;
+
+    margin: 0px;
+
+    background-color:#393836;
+
+    color: #5d6063;
+
+    font-family: Arial, Tahoma, Verdana;
+
+    font-size: 13px;
+
+}
+
+img {
+
+    border: 0px;
+
+    padding: 0px;
+
+    margin: 0px;
+
+}
+
+/* Site Container */
+
+.site_container {
+
+    border: 7px solid #FFF; 
+
+    width: 900px;
+
+    background-color:#FFFFFF; 
+
+    margin-top:10px;
+
+}
+
+/* Header Box CSS */
+
+#search_box{
+
+    float:right;
+
+}
+
+.header {
+
+    height: 138px;
+
+    background-image: url('images/header.jpg');
+
+    background-position: right;
+
+    background-repeat: no-repeat;
+
+    background-color: #201F1D;
+
+    text-align:left;
+
+    margin-top:25px;
+
+    margin-top:0px;
+
+}
+
+.header_title{
+
+    height: 78px; 
+
+    padding-left:15px; 
+
+    float:left;
+
+    width:90%;
+
+}
+
+.header_title h1 {
+
+    color: #FFF;
+
+    font-size: 44px;
+
+	margin-top: 15px;
+
+}
+
+.login{
+
+    border:1px solid #201F1D;
+
+    width: 150px; 
+
+}
+
+.header_search_box{
+
+    height: 36px; 
+
+    text-align:right;
+
+    background-color: #201F1D;
+
+    padding-top: 10px;
+
+    padding-left: 10px;
+
+}
+
+.advanced_link{
+
+    padding-top: 5px;
+
+    color:#3D78BA;
+
+}
+
+.advanced_link a {
+
+    color:#3D78BA !important;
+
+}
+
+.search_container{
+
+    height:30px; 
+
+    float:left;
+
+}
+
+.search_container_button{
+
+    height:30px; 
+
+    float:left;
+
+}
+
+/* Header navigation Menu */
+
+.top_menu {
+
+    height: 63px; color: #FFF; 
+
+    padding-left: 15px;
+
+    margin-top:22px; 
+
+    height:30px; 
+
+    vertical-align:bottom; 
+
+    float:left;
+
+}
+
+.menu_links{
+
+    float: left;
+
+}
+
+.pading{
+
+    padding: 10px;
+
+}
+
+.pading_bottom_5px{
+
+    padding-bottom: 5px;
+
+}
+
+.seperator {
+
+    border-top: 7px solid #e9e9e9; 
+
+    background-color: #FFF;
+
+}
+
+/* Left Column CSS*/
+
+#left_column{
+
+    width:250px; 
+
+    float:left; 
+
+    text-align:left;
+
+}
+
+.td_left {
+
+    width: 250px; 
+
+    border-right: 7px solid #e9e9e9;
+
+}
+
+.left_menu_divider {
+
+    clear:both;
+
+    border-bottom: 1px solid #fd740c;
+
+}
+
+.addthis_menu{
+
+    padding-top: 10px; 
+
+    padding-left: 30px;
+
+}
+
+/* Right Column CSS */
+
+#right_column{
+
+    float:left; width:625px; 
+
+    text-align:left;
+
+    padding-left:20px;
+
+    padding-top:25px;
+
+}
+
+/* Content CSS */
+
+.listing_area {
+
+    width: 100%; 
+
+    background-color: #9c9c9c; 
+
+    border-top: 7px solid #e9e9e9;
+
+}
+
+.new_listing {
+
+    font-size: 14px; 
+
+    color: #FFF; 
+
+    font-weight: bold;
+
+}
+
+.search {
+
+    width: 200px; 
+
+    border: 1px solid #FFF; 
+
+    height: 26px; 
+
+    color: #9c9c9c;
+
+    padding-left:5px;
+
+}
+
+a.top, a.top:hover, a.top:active, a.top:visited {
+
+    color: #FFF;
+
+    text-decoration: none;
+
+    font-size: 16px;
+
+    height: 28px;
+
+    display: block;
+
+    margin-right: 25px;
+
+}
+
+a.top, a.top:active, a.top:visited {
+
+padding-top:10px;
+
+}
+
+a.top:hover {
+
+    background-image: url('images/menu.gif');
+
+    background-repeat: no-repeat;
+
+    background-position: bottom center;
+
+}
+
+a, a:hover, a:active, a:visited {
+
+    color: #5d6063;
+
+    text-decoration: underline;
+
+    font-size: 13px;
+
+}
+
+a:hover {
+
+    text-decoration: none;
+
+}
+
+a.mc, a.mc:hover, a.mc:active, a.mc:visited {
+
+    color: #fd670b;
+
+    text-decoration: underline;
+
+    font-size: 13px;
+
+}
+
+a.mc:hover {
+
+    text-decoration: none;
+
+}
+
+a.wh, a.wh:hover, a.wh:active, a.wh:visited {
+
+    color: #FFF;
+
+    text-decoration: underline;
+
+    font-size: 13px;
+
+}
+
+a.wh:hover {
+
+    text-decoration: none;
+
+}
+
+a.bot, a.bot:hover, a.bot:active, a.bot:visited {
+
+    color: #FFF;
+
+    text-decoration: underline;
+
+    font-size: 13px;
+
+    margin-right: 20px;
+
+}
+
+a.bot:hover {
+
+    text-decoration: none;
+
+}
+
+a.lmenu, a.lmenu:hover, a.lmenu:active {
+
+    color: #FFF;
+
+    text-decoration: none;
+
+    font-size: 13px;
+
+    width: 240px;
+
+
+    padding-left: 10px;
+
+    display: block;
+
+    background-color: #201F1D;
+
+    /* height: 25px; */
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+}
+
+a.lmenu:hover {
+
+    color: #787777;
+
+    background-color: #FFF;
+
+}
+
+.mc {
+
+    color: #fd670b;
+
+}
+
+.bc {
+
+    border: 1px solid #fd670b;
+
+    border-collapse: collapse;
+
+    padding: 4px;
+
+}
+
+.bc2 {
+
+    border: 2px solid #fd670b;
+
+    border-collapse: collapse;
+
+    padding: 4px;
+
+    background-color: #EEE;
+
+}
+
+.title, h2 {
+
+    font-weight: bold;
+
+    font-size: 16px;
+
+    padding-bottom: 10px;
+
+    color: #201F1D;
+
+}
+
+.rb {
+
+    border: 2px solid Red;
+
+}
+
+.tlog {
+
+    height: 33px;
+
+    padding-right: 5px;
+
+    background-color: #FFF;
+
+}
+
+.toplogbut {
+
+    border: 0px;
+
+    background-color: #201F1D;
+
+    color: #FFF;
+
+    padding: 0px 4px 0px 4px;
+
+}
+
+.but {
+
+    border: 0px;
+
+    background-color: #201F1D;
+
+    color: #FFF;
+
+    padding: 4px 8px 4px 8px;
+
+}
+
+h1 {
+
+    color: #FFF;
+
+    font-size: 36px;
+
+}
+
+.dmenu {
+
+    width: 250px;
+
+    min-height: 25px;
+
+    border-top: 1px solid #FFF;
+
+}
+
+.bottom {
+
+    border-top: 7px solid #e9e9e9;
+
+    height: 80px;
+
+    background-color: #9c9c9c;
+
+    padding-left: 15px;
+
+    float:left; 
+
+    width:99%; 
+
+    text-align:left;
+
+}
+
+.copyright { 
+
+    padding-top: 10px;
+
+    color: #FFF;
+
+    font-size: 12px;
+
+}
+
+.dashCats ul {
+
+    padding-left: 25px;
+
+}
+
+.dashCats li {
+
+    line-height: 20px;
+
+}
+
+/* Newly Added CSS for the content section - 10th June */
+
+/* Sign Up Form - Starts */
+
+.signup_container{
+
+    width:320px; 
+
+    float:left;
+
+}
+
+.content_input{
+
+    width: 250px;
+
+}
+
+.signup_city{
+
+    width: 150px;	
+
+}
+
+.signup_city_dropdown{
+
+    width: 80px;
+
+}
+
+.asterik{
+
+    color: Red;
+
+}
+
+.float_left{
+
+    float: left;
+
+}
+
+.submit_button{
+
+    float:left;
+
+    width:600px;
+
+}
+
+.horizontal_line{
+
+    border: 1px solid #fd670b; 
+
+    width: 100%; 
+
+    margin: 10px 0px 10px 0px; 
+
+    float:left;
+
+}
+
+/* SignUp form ends */
+
+/* Postad.php page CSS start */
+
+.type_edit{
+
+    width:150px; 
+
+    float:left; 
+
+    height:150px;
+
+}
+
+.postad_seperator{
+
+    float:left; 
+
+    width:800px;
+
+}
+
+.padding_3px{
+
+    padding-top: 3px;
+
+}	
+
+.padding_top_10px{
+
+    padding-top:10px;
+
+}
+
+.input_postad{
+
+    width: 150px;
+
+}
+
+.input_postad_300{
+
+    width: 300px;
+
+}
+
+.blank_div{
+
+    width:100%;
+
+    float:left;
+
+}
+
+/* postad.php page CSS ends */
+
+/* Profile.php page CSS start */
+
+.profile_container{
+
+    border: 1px solid #fd670b; 
+
+    padding: 5px; 
+
+    float:left; 
+
+    width:98%;
+
+}
+
+.left_column_profile{
+
+    float:left; 
+
+    width:49%;
+
+    line-height: 22px;
+
+}
+
+.photo_div{
+
+    float:left; 
+
+    width:20%;
+
+}
+
+.profile_content_div{
+
+    float:left; 
+
+    width:79%
+
+}
+
+.padding_bottom_10{
+
+    padding-bottom: 10px;
+
+}
+
+/* Profile.php page CSS end */
+
+/* news.php page CSS start */
+
+.padding_bottom_20{
+
+    padding-bottom: 20px;
+
+}
+
+.new_items { 
+
+    float:left;
+
+    width:310px;
+
+}
+
+.news_content{
+
+    line-height: 19px; 
+
+    font-size: 12px; 
+
+    text-align: justify;
+
+}
+
+/* news.php page CSS end */
+
+/* myads.php page CSS start */
+
+.myads_container{
+
+    float:left;
+
+}
+
+.myads_photo_div_header, .myads_title_header, .myads_price_header, .myads_date_header, .myads_action_header{
+
+    float:left; 
+
+    padding:4px;
+
+}
+
+.myads_photo_div_header{
+
+    width:90px;
+
+    border-right:0;
+
+}
+
+.myads_title_header{
+
+    width:185px !important;
+
+    border-right:0;
+
+}
+
+.myads_price_header{
+
+    width:75px; 
+
+    text-align:center;
+
+    border-right:0;
+
+}
+
+.myads_date_header{
+
+    width:85px;
+
+    text-align:center;
+
+    border-right:0;
+
+}
+
+.myads_action_header{
+
+    width:68px;
+
+    text-align:center;
+
+}
+
+.myads_photo_div_content, .myads_photo_div_content, .myads_title_content, .myads_price_content, .myads_date_content, .myads_action_content{
+
+    float:left;
+
+    padding:4px;
+
+    height:110px;
+
+    border-top:0;
+
+}
+
+.myads_photo_div_content{
+
+    width:90px;
+
+    border-right:0;
+
+}
+
+.myads_title_content{
+
+    border-right:0;
+
+    width:185px !important;
+
+}
+
+.myads_price_content{
+
+    width:75px; 
+
+    text-align:center;
+
+    border-right:0;
+
+}
+
+.myads_date_content{
+
+    width:85px;
+
+    border-right:0; 
+
+    text-align:center;
+
+}
+
+.myads_action_content{
+
+    width:68px;
+
+    text-align:center;
+
+}
+
+/* myads.php page CSS end */
+
+/* login.php page CSS start */
+
+.login_container_main{
+
+    width:100%; float:left; text-align:center; padding-top:20px;
+
+}
+
+.login_label{
+
+    width:43%;float:left; text-align:right;
+
+}
+
+.login_input{
+
+    width:56%;float:left; text-align:left;
+
+}
+
+/* login.php page CSS end */
+
+/* dashboard.php page CSS start */
+
+.dashboard_left_column{
+
+    float:left; width:225px; vertical-align:top; padding-bottom:20px;
+
+}
+
+.dashboard_right_column{
+
+    float:right; width:160px; vertical-align:top;
+
+}
+
+.padding_top_15px{
+
+    padding-top:10px;
+
+}
+
+.map_container{
+
+    float:left; width:550px; vertical-align:top;
+
+}
+
+.map_canvas{
+
+    width: 620px; height: 400px;
+
+}
+
+.map_content{
+
+    padding-top:20px;
+
+    float:left;  vertical-align:top;
+
+}
+
+/* dashboard.php page CSS end */
+
+/* classified.php page CSS start */
+
+.images_container{
+
+    float:left;
+
+    width:150px; 
+
+    height:150px; 
+
+    text-align:center;
+
+}
+
+.padding_top_20{
+
+    padding-top: 20px;
+
+}
+
+.left_column_classified{
+
+    width:75%; 
+
+    float:left;
+
+}
+
+.right_column_classified{
+
+    width:24%; 
+
+    float:left;
+
+}
+
+.map_canvas_classified{
+
+    width: 452px; 
+
+    height: 298px; 
+
+    border: 1px solid #fd670b; 
+
+    padding: 3px;
+
+}
+
+.classified_right_column{
+
+    float:right; width:160px; vertical-align:top;
+
+}
+
+/* New CSS add on 22rd June. Take note on .myads_container class  */
+
+/*Seller Contact Form*/
+
+.line_seperator{
+
+    clear:both;
+
+}
+
+.images_div{
+
+    border: 1px solid #fd670b; padding: 3px;
+
+}
+
+.myads_title_header_width_305{
+
+    width: 305px;
+
+}
+
+/* Added on 11th July */
+
+.myads_container1{
+
+    width:100%; 
+
+    float:left;
+
+}
+
+.bld{
+
+    font-weight:bold;
+
+    font-size: 12px;
+
+}
+
+.featured_ads{
+
+    font-weight:bold;
+
+    font-size: 12px;
+
+    background-color:#CCCCCC;
+
+}
+
+.padding_top_20px li span
+
+{
+
+    font-size: 11px;
+
+}
+
+.myads .myads_price_header,
+
+.myads .myads_price_content
+
+{
+
+    width:57px !important;
+
+}
+
+.myads .myads_date_header,
+
+.myads .myads_date_content
+
+{
+
+    width:63px !important;
+
+}
+
+.myads .myads_action_header,
+
+.myads .myads_action_content
+
+{
+
+    width:42px !important;
+
+}
+
+.myads .myads_title_header,
+
+.myads .myads_title_content
+
+{
+
+    width:181px !important;
+
+}
+
+.addthis_toolbox { float:left; }

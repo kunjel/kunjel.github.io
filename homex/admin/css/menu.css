@@ -1,0 +1,79 @@
+
+	#jsddm
+	{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	#jsddm li
+	{	float: left;
+		list-style: none;
+		font-size: 12px;
+		height: 30px;
+		text-align: center;
+		background-color: #e4e4df;
+		background-image: url('../images/bgm.jpg');
+	}
+
+	#jsddm li a
+	{	display: block;
+		background: #e4e4df;
+		padding: 8px 12px;
+		text-decoration: none;
+		border-right: 1px solid white;
+		width: 80px;
+		color: #353530;
+		white-space: nowrap;
+		font-weight: bold;
+		background-image: url('../images/bgm.jpg');
+	}
+
+	#jsddm li a:hover
+	{
+		background-color: #4c7ea6;
+		color: #FFF;
+		background-image: url('../images/bgm_.jpg');
+	}
+
+
+	#jsddm li a.sel
+	{	display: block;
+		background: #e4e4df;
+		padding: 8px 12px;
+		text-decoration: none;
+		border-right: 1px solid white;
+		width: 80px;
+		color: #FFF;
+		white-space: nowrap;
+		font-weight: bold;
+		background-image: url('../images/bgm_.jpg');
+	}
+
+
+		#jsddm li ul
+		{
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			visibility: hidden;
+			border-top: 1px solid white;
+		}
+
+			#jsddm li ul li
+			{	float: none;
+				display: inline;
+			}
+
+			#jsddm li ul li a
+			{	width: auto;
+				background-color: #e4e4df;
+				color: #24313C;
+				text-align: left;
+				width: 140px;
+				border-bottom: 1px solid #FFF;
+			}
+
+			#jsddm li ul li a:hover
+			{
+				background-color: #4c7ea6;
+			}

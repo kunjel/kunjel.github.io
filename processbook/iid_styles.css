@@ -1,0 +1,28 @@
+.main_nav  { color: #808080; font-size: 13px; font-family: Verdana, "Trebuchet MS", Courier; text-align: left }
+.main_nav_active { color: #4169e1; font-size: 13px; font-family: Verdana, "Trebuchet MS", Courier; text-align: left }
+.sub_nav { color: #999; font-size: 11px; font-family: "Trebuchet MS"; text-align: left }
+.side_nav  { color: #999; font-size: 11px; font-family: Verdana; text-align: left; padding-bottom: 12px }
+.side_nav_active  { color: #000; font-size: 11px; font-family: Verdana; text-align: left; padding-bottom: 12px }
+.sub_nav_num  { color:#CC9933; font-size: 11px; font-family: Verdana; text-align: left; padding-bottom: 12px }
+.page_title { font-size: 44px; font-family: Verdana }
+.subpage_title { font-size: 30px; font-family: Verdana }
+.page_details { color: #666; font-size: 11px; font-family: Verdana }
+h1 { font-size: 20pt; font-family: Verdana; font-weight: normal; margin: 12px 0 13px 20px }
+h2 { font-size: 20pt; font-family: Verdana; font-weight: normal; margin: 12px 0 0 20px }
+h3 { color: #CC9933; font-size: 11pt; font-family: Verdana; font-weight: bold; margin: 0 0 0 20px }
+h4 { color: #000; font-size: 10pt; font-family: Verdana; font-weight: bold; margin: 12px 0 12px 20px }
+.text_highlight { font-size: 15pt; font-family: Verdana; font-style: italic }
+p {
+	font-size: 9pt;
+	font-family: "Trebuchet MS";
+	margin-right: 20px;
+	margin-left: 20px;
+	color: #666;
+}
+.credits { color: #808080; font-size: 8pt; font-family: Verdana; text-align: left }
+.template_note { font-size: 9pt; font-family: Verdana; font-style: italic }
+a:link  { color: #808080; text-decoration: none }
+a:visited { color: #808080; text-decoration: none }
+a:active { color: #808080; text-decoration: none }
+a:hover { color: #4169e1; text-decoration: none }
+ul { font-size: 10pt; font-family: "Trebuchet MS"; list-style-type: disc; margin: 1em 0 1em 40px }

@@ -1,0 +1,23 @@
+<IfModule mod_rewrite.c>
+
+	RewriteEngine On
+	RewriteBase /
+	RewriteCond %{REQUEST_FILENAME} !-f
+
+	RewriteCond %{REQUEST_FILENAME} !-d
+
+	RewriteRule ^([a-zA-Z0-9_-]+)/?$ index.php?pid=$1 [NC]
+
+	RewriteRule ^([a-zA-Z0-9_-]+)/?([a-zA-Z0-9_-]+)/?$ index.php?pid=$1&mode=$2 [NC]
+
+	RewriteRule ^postAd/edit/?([0-9]+)/?$ index.php?pid=postAd&mode=edit&page=$1 [NC]
+
+	RewriteRule ^([a-zA-Z0-9_-]+)/?([a-zA-Z0-9_-]+)/?([0-9]+)/?$ index.php?pid=$1&mode=$2&p=$3 [NC]
+
+    RewriteRule ^([a-zA-Z0-9_-]+)/?([a-zA-Z0-9_-]+)/?([a-zA-Z0-9_-]+)/?$ index.php?pid=$1&mode=$2&page=$3 [NC]
+	
+	RewriteRule ^([a-zA-Z0-9_-]+)/?([a-zA-Z0-9_-]+)/?([a-zA-Z0-9_-]+)/?([0-9]+)/?$ index.php?pid=$1&mode=$2&page=$3&p=$4 [NC]
+	
+	#RewriteRule ^postAd/edit/?([0-9]+)/?$ index.php?pid=postAd&mode=edit&page=$1
+
+</IfModule>

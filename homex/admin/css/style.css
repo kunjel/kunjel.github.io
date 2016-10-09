@@ -1,0 +1,360 @@
+html, body {
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100%;
+}
+body {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+position: relative;
+}
+.header {
+background-color: #0D3568;
+height: 77px;
+width: 900px;
+text-align:left
+}
+.content {
+padding-bottom: 1px;
+}
+.footer {
+height: 60px;
+width: 100%;
+position: absolute;
+}
+body
+{
+	padding: 0px;
+	margin: 0px;
+	background-color: #0D3568;
+	color: #353530;
+	font-family: Arial, Tahoma, Verdana;
+	font-size: 14px;
+}
+img
+{
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+.bgtable{
+	background-color: #0D3568;
+}
+.conttable{
+	background-color: #fff;
+}
+.topbg
+{
+	background-color: #86AD37;
+	height: 70px;
+	font-size: 22px;
+	color: #FFF;
+	padding-left: 20px;
+}
+.contmiddle {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+a, a:hover, a:active {
+	color: #5072bf;
+	text-decoration: underline;
+	font-size: 13px;
+}
+a:hover {
+	text-decoration: none;
+	font-size: 13px;
+	color: #5072bf;
+}
+a:visited {
+	color: #5072bf;
+	font-size: 13px;
+	text-decoration: underline;
+}
+a.blue, a.blue:hover, a.blue:active {
+	color: #5072bf;
+	text-decoration: underline;
+	font-size: 13px;
+}
+a.blue:hover {
+	text-decoration: none;
+	font-size: 13px;
+	color: #5072bf;
+}
+a.blue:visited {
+	color: #5072bf;
+	font-size: 13px;
+	text-decoration: underline;
+}
+a.wh, a.wh:hover, a.wh:active {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 13px;
+}
+a.wh:hover {
+	text-decoration: none;
+	font-size: 13px;
+	color: #FFF;
+}
+a.wh:visited {
+	color: #FFF;
+	font-size: 13px;
+	text-decoration: none;
+}
+a.gr, a.gr:hover, a.gr:active {
+	color: #353530;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+	text-shadow: 1px 1px #FFF;
+}
+a.gr:hover {
+	text-decoration: underline;
+	font-size: 14px;
+	color: #353530;
+	font-weight: bold;
+	text-shadow: 1px 1px #FFF;
+}
+a.gr:visited {
+	color: #353530;
+	font-size: 13px;
+	text-decoration: none;
+	font-weight: bold;
+	text-shadow: 1px 1px #FFF;
+}
+a.white, a.white:hover, a.white:active {
+	color: #FFF;
+	text-decoration: underline;
+	font-size: 13px;
+}
+a.white:hover {
+	text-decoration: none;
+	font-size: 13px;
+	color: #FFF;
+}
+a.white:visited {
+	color: #FFF;
+	font-size: 13px;
+	text-decoration: underline;
+}
+a.litab, a.litab:hover, a.litab:active {
+	color: #5072bf;
+	text-decoration: underline;
+	font-size: 13px;
+	padding: 0px 5px 0px 5px;
+}
+a.litab:hover {
+	text-decoration: none;
+	font-size: 13px;
+	color: #353530;
+	background-color: #e4e4df;
+	padding: 0px 5px 0px 5px;
+}
+a.litab:visited {
+	color: #5072bf;
+	font-size: 13px;
+	text-decoration: underline;
+	padding: 0px 5px 0px 5px;
+}
+a.litabact, a.litabact:hover, a.litabact:active {
+	color: #353530;
+	background-color: #e4e4df;
+	text-decoration: none;
+	font-size: 13px;
+	padding: 0px 5px 0px 5px;
+}
+a.litabact:hover {
+	text-decoration: none;
+	font-size: 13px;
+	padding: 0px 5px 0px 5px;
+	color: #5072bf;
+	background-color: #FFF;
+}
+a.litabact:visited {
+	color: #353530;
+	background-color: #e4e4df;
+	font-size: 13px;
+	text-decoration: none;
+	padding: 0px 5px 0px 5px;
+}
+.bl
+{
+	border-bottom: 1px solid #e6e6e5;
+}
+.lh
+{
+	height: 35px;
+}
+.lhs
+{
+	height: 25px;
+}
+.al
+{
+	background-color: #f5f5f4;
+}
+.level1
+{
+	padding-left: 20px;
+}
+.level2
+{
+	padding-left: 50px;
+}
+.level3
+{
+	padding-left: 80px;
+}
+.sublink
+{
+	float: left;
+	margin-right: 20px;
+	padding: 5px;
+}
+.sublinkact
+{
+	float: left;
+	background-color: #4c7ea6;
+	margin-right: 20px;
+	padding: 5px;
+}
+.sublinkpadd
+{
+	margin-bottom: 10px;
+}
+.title
+{
+	font-size: 16px;
+	padding-bottom: 15px;
+	font-weight: bold;
+}
+.lp
+{
+	padding-left: 5px;
+}
+.line
+{
+	border-bottom: 1px solid #e6e6e5;
+}
+.bottom
+{
+	background-color: #353530;
+	height: 60px;
+}
+.dashBg
+{
+	float: left;
+	background-color: #e6e6e5;
+	margin-right: 20px;
+	padding: 5px;
+}
+.ok
+{
+	text-align: center;
+	padding: 5px;
+	margin: 10px 0px 10px 0px;
+	border: 1px solid Green;
+	color: Green;
+}
+.error
+{
+	text-align: center;
+	padding: 5px;
+	margin: 10px 0px 10px 0px;
+	border: 1px solid Red;
+	color: Red;
+}
+.tbp input, select, textarea
+{
+	margin-top: 3px;
+}
+.rb
+{
+	border: 2px solid Red;
+}
+#login input
+{
+	border: 1px solid #e5e5e5;
+	background-color: #fbfbfb;
+	padding-top: 4px;
+	width: 274px;
+	height: 32px;
+	font-size: 16px;
+	font-weight: bold;
+	color: 555555;
+}
+#loginButton input
+{
+	border: 1px solid #d6d6d6;
+	height: 24px;
+	padding: 0px 4px 0px 4px;
+	background-color: #ece9d8;
+}
+.tdtop
+{
+	background-color: #e6e6e5;
+}
+.tdbot
+{
+	border: 1px solid #e6e6e5;
+	padding: 3px;
+}
+.he ul
+{
+	padding-left: 30px;
+}
+#settings input, select
+{
+	border: 1px solid #d6d6d6;
+	background-color: #fbfbfb;
+	height: 24px;
+	font-size: 15px;
+	vertical-align: text-bottom;
+}
+#settings textarea
+{
+	border: 1px solid #d6d6d6;
+	background-color: #fbfbfb;
+	font-size: 14px;
+}
+#sub input
+{
+	color: #FFF;
+	border: 1px solid #d6d6d6;
+	height: 30px;
+	padding: 8px 8px 8px 8px;
+	background-color: #86AD37;
+	text-valign: middle;
+}
+.but {
+	color: #FFF;
+	border: 1px solid #d6d6d6;
+	height: 30px;
+	padding: 4px 8px 8px 8px;
+	background-color: #86AD37;
+	text-valign: middle;
+}
+/* CSS for the login page of ADMIN section */
+#body_login{
+	background-color: #f9f9f9; text-align:center;margin:50px 0px; padding:0px;
+}
+#login_content{
+ 	width:348px;
+	margin:0px auto;
+	text-align:left;
+	padding:15px;
+}
+.error_login{
+ 	color:red; font-size: 13px;
+}
+.project_name{
+	font-size: 24px; font-weight: bold; padding-right: 10px; text-shadow: 2px 2px #FFF;
+}
+.login_box_back{
+	width: 348px; height: 224px; background-image: url('../images/login.jpg'); background-repeat: no-repeat;
+}
+.login_box_content{
+	padding-top: 32px; text-align: left; padding-left: 35px; color: #777777; font-size: 12px;
+}
